@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThucHanhForm</title>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h2>Create Account</h2>
+        <div>
+            <p>Registration information</p>
+            <div>
+                <label for="first name"><b>First name*:</b>&ensp;</label>
+                <input type="text" name="first name" id="firt name" value="" placeholder="enter your first name">
+                <label for="last name">&ensp;<b>Last name:</b></label>
+                <input type="text" name="last name" id="last name" value="" placeholder="enter your last name">
+            </div>
+            <div>
+                <label for="email"><b>Email*:</b>&ensp;</label>
+                <input type="text" name="email" id="firt name" value="" placeholder="enter your email">
+                <label for="phone">&ensp;<b>Phone*:</b></label>
+                <input type="text" name="phone" id="phone" value="" placeholder="enter your phone number">
+            </div>
+            <div>
+                <label for="password"><b>Password*:</b>&ensp;</label>
+                <input type="text" name="password" id="password" value="" placeholder="enter your password">
+                <label for="confirm password">&ensp;<b>Confirm password*:</b></label>
+                <input type="text" name="confirm password" id="confirm password" value=""
+                    placeholder="enter your password again">
+            </div>
+        </div>
+        <div>
+            <p>Personal information</p>
+            <label for="gender"><b>Gender:</b></label>&ensp;
+            <input type="radio" name="gender" value="male">&ensp;<span>Male</span>
+            <input type="radio" name="gender" value="female">&ensp;<span>Female</span>&ensp;
+            <label for="hobbies"><b>Hobbies:</b></label>&ensp;
+            <input type="checkbox" name="music" value="music"><span>Mmusic</span>&ensp;
+            <input type="checkbox" name="sports" value="sports"><span>Sports</span>&ensp;
+            <input type="checkbox" name="travel" value="travel"><span>Travel</span>&ensp;
+            <input type="checkbox" name="movies" value="movies"><span>Movies</span>&ensp;
+            <br>
+            <label for="source of income"><b>Source of Income:</b></label>&ensp;
+            <select name="source of income" id="source of income">
+                <option value="employed" selected>Employed&emsp;</option>
+            </select>&ensp;
+            <label for="income"><b>Income:</b></label>&ensp;
+            <input type="range" name="income" id="" value="0">
+            <br>
+            <label for="age">Age&ensp;</label>
+            <input type="number" name="age" id="">&ensp;
+            <label for="profile picture">Profile Picture:&ensp;</label>
+            <input type="file" name="profile picture" id="profile picture" multiple>
+        </div>
+
+    </form>
+</body>
+
+</html>
